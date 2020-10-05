@@ -1,0 +1,18 @@
+<div *ngFor="let value of data" class="card" style="width: 100%">
+  <div class="card-body">
+    <small>{{"Question added • "+value.topic}}</small>
+    <h5 class="card-title"><b>{{value.question}}</b></h5>
+    <small>{{value.noOfAnswers + " Answers"}}</small>
+<div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
+  <div class="btn-group" role="group" aria-label="First group">
+    <a href="#" class="card-link"><i class="fa fa-pencil-square-o" aria-hidden="true">Answer</i></a>
+    <a href="#" class="card-link"><i class='fa fa-rss'></i>{{"Follow • "+value.followers}}</a>
+    <a href="#" class="card-link"><i class='fa fa-eye-slash'>Pass</i></a>
+  </div>
+  <div class="btn-group" role="group" aria-label="Second group">
+     <a href="#" class="card-link"><i class="fa fa-share-alt"></i></a>
+      <a href="#" class="card-link"><i class="fa fa-ellipsis-h"></i></a>
+  </div>
+</div>
+  </div>
+</div>

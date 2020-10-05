@@ -1,0 +1,24 @@
+<div *ngFor="let value of data" class="card" style="width: 100%">
+  <div class="card-body">
+    <div class="author">
+      <img src={{value.imgSrc}} class="user"/>
+       <ul class="author-detail">
+         <li><b>{{value.authorName}}</b></li>
+         <li style="color:gray">{{value.authorDetail}}</li>
+       </ul>
+    </div>
+    <h5 class="card-title"><b>{{value.question}}</b></h5>
+    <p class="card-text">{{value.answer}}</p>
+<div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
+  <div class="btn-group" role="group" aria-label="First group">
+    <a href="#" class="card-link"><i class="fa fa-angle-double-up"></i>{{value.upvote}}</a>
+    <a href="#" class="card-link"><i class='fas fa-sync-alt'></i>{{value.share}}</a>
+    <a href="#" class="card-link"><i class='far fa-comment'></i>{{value.comment}}</a>
+  </div>
+  <div class="btn-group" role="group" aria-label="Second group">
+     <a href="#" class="card-link"><i class="fa fa-share-alt"></i></a>
+      <a href="#" class="card-link"><i class="fa fa-ellipsis-h"></i></a>
+  </div>
+</div>
+  </div>
+</div>

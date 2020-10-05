@@ -1,0 +1,35 @@
+<div class="card" style="width: 100%">
+  <div class="card-body">
+    <div class="author">
+      <img src={{data.imgSrc}} class="user"/>
+       <div class="details">
+          <b class="name">{{data.authorName}}</b>
+          <p class="detail">{{data.authorDetail}}</p>
+       </div>
+    </div>
+    <i class="bio"><b>{{data.bio}}</b></i><br>
+    <a href="#" class="card-link"><i class="fa fa-pencil"></i>Edit</a>
+  </div>
+</div>
+<!--credentials-->
+<div class="card" style="width: 100%">
+  <div class="card-body">
+    <div class="credentials">
+       <b>Credentials & Highlights</b><hr>
+       <ul>
+         <li> <a href="#" class="card-link"><i class="fa fa-briefcase"></i>Add employment credentials</a></li>
+         <li><a href="#" class="card-link"><i class="fa fa-graduation-cap"></i>Add education credentials</a></li>
+         <li><a href="#" class="card-link"><i class="fas fa-map-marker-alt"></i>Add location credentials</a></li>
+       </ul>
+    </div>
+  </div>
+</div>
+<div class="scrollmenu">
+  <a href="#profile" class="active">Profile</a>
+  <a href="#question">{{data.question+" Questions"}}</a>
+  <a href="#answers">{{data.answer+" Answers"}}</a>
+  <a href="#followers">{{data.follower+" Followers"}}</a>
+  <a href="#followings">{{data.following+" Followings"}}</a>
+  <a href="#posts">{{data.post+" Posts"}}</a>
+  <a href="#knowsAbout">Knows About</a>
+</div>

@@ -1,0 +1,13 @@
+.user {
+  float:left;
+}
+.author-detail {
+  list-style: none;
+  margin-left: 5px;
+  font-size: 12px;
+}
+img {
+  border-radius: 50%;
+  width: 40px;
+  border: 1px solid #eff0f0;
+}

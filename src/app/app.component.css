@@ -1,0 +1,40 @@
+.top-bar{
+  background-color: #B70E0E;
+}
+.next-bar{
+  background-color: #F7F7F7;
+  width: 100%;
+  box-shadow: 4px solid black;
+}
+.next-bar ul li a{
+  columns: red;
+  text-align: center;
+  display: block;
+  padding: 5px;
+}
+.active{
+  color: #B70E0E;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+}
+li{
+  display: inline-block;
+}
+.top-bar ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  padding: 5px;
+  display: block;
+  width: 100px;
+}
+li a:hover{
+  background-color: #EEEEEEE8;
+}
